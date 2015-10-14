@@ -19891,6 +19891,30 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <label x="312.42" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="SW_L" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PC6"/>
+<wire x1="165.1" y1="99.06" x2="177.8" y2="99.06" width="0.1524" layer="91"/>
+<label x="167.64" y="99.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="PC6"/>
+<wire x1="309.88" y1="99.06" x2="322.58" y2="99.06" width="0.1524" layer="91"/>
+<label x="312.42" y="99.06" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SW_R" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PD7(ADC10)"/>
+<wire x1="165.1" y1="96.52" x2="177.8" y2="96.52" width="0.1524" layer="91"/>
+<label x="167.64" y="96.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="PD7(ADC10)"/>
+<wire x1="309.88" y1="96.52" x2="322.58" y2="96.52" width="0.1524" layer="91"/>
+<label x="312.42" y="96.52" size="1.778" layer="95"/>
+</segment>
+</net>
 <net name="VBUS" class="0">
 <segment>
 <pinref part="F1" gate="G$1" pin="2"/>
@@ -19964,14 +19988,50 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="D7" class="0">
 <segment>
+<pinref part="U1" gate="G$1" pin="PE6"/>
+<wire x1="165.1" y1="93.98" x2="177.8" y2="93.98" width="0.1524" layer="91"/>
+<label x="167.64" y="93.98" size="1.778" layer="95"/>
+</segment>
+<segment>
 <pinref part="U2" gate="G$1" pin="PE6"/>
 <wire x1="309.88" y1="93.98" x2="322.58" y2="93.98" width="0.1524" layer="91"/>
 <label x="312.42" y="93.98" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="D8" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PE6"/>
-<wire x1="165.1" y1="93.98" x2="177.8" y2="93.98" width="0.1524" layer="91"/>
-<label x="167.64" y="93.98" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="PB4(ADC11)"/>
+<wire x1="165.1" y1="91.44" x2="177.8" y2="91.44" width="0.1524" layer="91"/>
+<label x="167.64" y="91.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="PB4(ADC11)"/>
+<wire x1="309.88" y1="91.44" x2="322.58" y2="91.44" width="0.1524" layer="91"/>
+<label x="312.42" y="91.44" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D9" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PB5(ADC12)"/>
+<wire x1="165.1" y1="88.9" x2="177.8" y2="88.9" width="0.1524" layer="91"/>
+<label x="167.64" y="88.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="PB5(ADC12)"/>
+<wire x1="309.88" y1="88.9" x2="322.58" y2="88.9" width="0.1524" layer="91"/>
+<label x="312.42" y="88.9" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D10" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PB6(ADC13)"/>
+<wire x1="165.1" y1="86.36" x2="177.8" y2="86.36" width="0.1524" layer="91"/>
+<label x="167.64" y="86.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="PB6(ADC13)"/>
+<wire x1="309.88" y1="86.36" x2="322.58" y2="86.36" width="0.1524" layer="91"/>
+<label x="312.42" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D11" class="0">
@@ -20084,66 +20144,6 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <wire x1="134.62" y1="190.5" x2="134.62" y2="195.58" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="S"/>
 <pinref part="SUPPLY166" gate="G$1" pin="VCC"/>
-</segment>
-</net>
-<net name="SW_1" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PD7(ADC10)"/>
-<wire x1="165.1" y1="96.52" x2="177.8" y2="96.52" width="0.1524" layer="91"/>
-<label x="167.64" y="96.52" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U2" gate="G$1" pin="PD7(ADC10)"/>
-<wire x1="309.88" y1="96.52" x2="322.58" y2="96.52" width="0.1524" layer="91"/>
-<label x="312.42" y="96.52" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SW_2" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PB4(ADC11)"/>
-<wire x1="165.1" y1="91.44" x2="177.8" y2="91.44" width="0.1524" layer="91"/>
-<label x="167.64" y="91.44" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U2" gate="G$1" pin="PB4(ADC11)"/>
-<wire x1="309.88" y1="91.44" x2="322.58" y2="91.44" width="0.1524" layer="91"/>
-<label x="312.42" y="91.44" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SW_3" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PB5(ADC12)"/>
-<wire x1="165.1" y1="88.9" x2="177.8" y2="88.9" width="0.1524" layer="91"/>
-<label x="167.64" y="88.9" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U2" gate="G$1" pin="PB5(ADC12)"/>
-<wire x1="309.88" y1="88.9" x2="322.58" y2="88.9" width="0.1524" layer="91"/>
-<label x="312.42" y="88.9" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SW_4" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PB6(ADC13)"/>
-<wire x1="165.1" y1="86.36" x2="177.8" y2="86.36" width="0.1524" layer="91"/>
-<label x="167.64" y="86.36" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U2" gate="G$1" pin="PB6(ADC13)"/>
-<wire x1="309.88" y1="86.36" x2="322.58" y2="86.36" width="0.1524" layer="91"/>
-<label x="312.42" y="86.36" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="D5" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PC6"/>
-<wire x1="165.1" y1="99.06" x2="177.8" y2="99.06" width="0.1524" layer="91"/>
-<label x="167.64" y="99.06" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U2" gate="G$1" pin="PC6"/>
-<wire x1="309.88" y1="99.06" x2="322.58" y2="99.06" width="0.1524" layer="91"/>
-<label x="312.42" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -23831,15 +23831,23 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <approved hash="114,1,91.9488,203.137,IC3,B,+IN,,,"/>
 <approved hash="104,1,91.44,210.82,IC3P,V+,5V,,,"/>
 <approved hash="104,1,91.44,195.58,IC3P,V-,GND,,,"/>
-<approved hash="103,2,302.26,205.74,IC4,NC,GND,,,"/>
-<approved hash="103,2,302.26,203.2,IC4,NC1,GND,,,"/>
-<approved hash="103,2,302.26,200.66,IC4,NC2,GND,,,"/>
-<approved hash="103,2,302.26,198.12,IC4,NC3,GND,,,"/>
-<approved hash="103,2,332.74,198.12,IC4,NC4,GND,,,"/>
-<approved hash="103,2,332.74,200.66,IC4,NC5,GND,,,"/>
-<approved hash="103,2,332.74,203.2,IC4,NC6,GND,,,"/>
-<approved hash="103,2,332.74,205.74,IC4,NC7,GND,,,"/>
+<approved hash="104,1,322.58,162.56,IC4,VCC,5V,,,"/>
+<approved hash="103,1,322.58,154.94,IC4,NC,GND,,,"/>
+<approved hash="103,1,322.58,152.4,IC4,NC1,GND,,,"/>
+<approved hash="103,1,322.58,149.86,IC4,NC2,GND,,,"/>
+<approved hash="103,1,322.58,147.32,IC4,NC3,GND,,,"/>
+<approved hash="103,1,353.06,147.32,IC4,NC4,GND,,,"/>
+<approved hash="103,1,353.06,149.86,IC4,NC5,GND,,,"/>
+<approved hash="103,1,353.06,152.4,IC4,NC6,GND,,,"/>
+<approved hash="103,1,353.06,154.94,IC4,NC7,GND,,,"/>
+<approved hash="104,1,231.14,238.76,U$2,VBUS,VIN,,,"/>
+<approved hash="113,1,193.571,130.071,FRAME1,,,,,"/>
 <approved hash="113,1,106.68,128.545,I1,,,,,"/>
+<approved hash="113,1,38.1,28.9772,JP3,,,,,"/>
+<approved hash="113,1,230.463,210.625,JP4,,,,,"/>
+<approved hash="113,1,99.06,26.9028,JP1,,,,,"/>
+<approved hash="113,1,230.463,17.5853,JP5,,,,,"/>
+<approved hash="113,1,258.403,17.5853,JP6,,,,,"/>
 </errors>
 </schematic>
 </drawing>
